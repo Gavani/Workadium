@@ -1,0 +1,20 @@
+ /* Layout config */
+@import url(layout/fonts.css);
+@import url(layout/normalize.css);
+@import url(layout/adjustment.css);
+
+/* Components config */
+@import url(Components/footer.css);
+@import url(Components/header.css);
+@import url(Components/page-text.css);
+@import url(Components/section-title.css);
+@import url(Components/sidebar.css);
+@import url(Components/breadcrumbs.css);
+
+/* Pages config */
+@import url(pages/preview.css);
+@import url(pages/about.css);
+@import url(pages/coments.css);
+@import url(pages/intro.css);
+@import url(pages/prices.css);
+

@@ -1,0 +1,41 @@
+
+.main__left-menu{
+    width: 180px;
+    float: left;
+    margin-top: 45px;
+}
+.nav__menu-link{
+    font-size: 12px;
+    text-decoration: none;
+}
+.nav__menu-icon, .nav__menu-text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+.nav__menu-icon{
+    background: url(../../img/icons/menu/icons-sprite.png) 0 0 no-repeat;    
+    width: 20px;
+    height: 18px;
+    margin-right: 12px;
+}
+.menu__icon-triangle{
+    background-position-x: 0;
+}
+.menu__icon-wallet{
+    background-position-x: -100px;
+}
+.menu__icon-feed{
+    background-position-x: -200px;
+}
+.nav__menu-text{
+    color: #ec1e79;
+    font-weight: bolder;
+    max-width: 140px;
+}
+.nav__menu-link:hover .nav__menu-text, .nav__menu-link_active .nav__menu-text{
+    color: #221f1f;
+}
+.nav__menu-link:hover .nav__menu-icon, .nav__menu-link_active .nav__menu-icon{
+    background-position-y: -100px;
+}

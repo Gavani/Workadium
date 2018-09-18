@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: 'Gotham', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.42;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1100px;
+}
+.wrapper::after{
+    content: "";
+    display: block;
+    height: 94px;
+}
+.container{
+    margin: 0 auto;
+    width: 1060px;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
