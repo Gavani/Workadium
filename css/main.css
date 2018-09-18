@@ -4,12 +4,12 @@
 @import url(layout/adjustment.css);
 
 /* Components config */
-@import url(Components/footer.css);
-@import url(Components/header.css);
-@import url(Components/page-text.css);
-@import url(Components/section-title.css);
-@import url(Components/sidebar.css);
-@import url(Components/breadcrumbs.css);
+@import url(components/footer.css);
+@import url(components/header.css);
+@import url(components/page-text.css);
+@import url(components/section-title.css);
+@import url(components/sidebar.css);
+@import url(components/breadcrumbs.css);
 
 /* Pages config */
 @import url(pages/preview.css);
